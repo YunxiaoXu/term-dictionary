@@ -1,6 +1,6 @@
-import { initTinyMCE, getTinyMCEData } from '/src/components/tinyMCE/tiny-mce.js';
-import * as backend_function from '/src/backend/dict.js';
-import * as redirection from '/src/common-scripts/redirection.js';
+import { initTinyMCE, getTinyMCEData } from '../../components/tinyMCE/tiny-mce.js';
+import * as backend_function from '../../backend/dict.js';
+import * as redirection from '../../common-scripts/redirection.js';
 
 let term_id = localStorage.getItem('get_term_id');
 let button = document.getElementById('update-button');

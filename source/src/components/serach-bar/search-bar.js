@@ -1,7 +1,7 @@
 // https://bendyworks.com/blog/native-web-components
 // https://codepen.io/bugrakocak/pen/EMbKoB
-import * as backend_function from '/src/backend/dict.js';
-import * as redirection from '/src/common-scripts/redirection.js';
+import * as backend_function from '../../backend/dict.js';
+import * as redirection from '../../common-scripts/redirection.js';
 
 class SearchBar extends HTMLElement {
   constructor() {

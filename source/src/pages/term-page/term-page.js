@@ -1,6 +1,6 @@
-import * as backend_function from '/src/backend/dict.js';
-import * as tiny_mce from '/src/components/tinyMCE/tiny-mce.js';
-import * as redirection from '/src/common-scripts/redirection.js';
+import * as backend_function from '../../backend/dict.js';
+import * as tiny_mce from '../../components/tinyMCE/tiny-mce.js';
+import * as redirection from '../../common-scripts/redirection.js';
 
 window.addEventListener('DOMContentLoaded', init);
 
