@@ -1,4 +1,22 @@
 {
+  "name": "term-dictionary",
+  "version": "1.0.0",
+  "author": {
+    "name": "Yunxiao Xu",
+    "email": "yux029@ucsd.edu"
+  },
+  "main": "source/home.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YunxiaoXu/term-dictionary"
+  },
+  "scripts": {
+    "test": "jest ./source/test/",
+    "doc-server": "./node_modules/.bin/http-server ./doc",
+    "update-doc": "./node_modules/.bin/jsdoc -r ./source -d ./doc",
+    "start": "./node_modules/.bin/http-server ./source",
+    "eslint": "./node_modules/.bin/eslint"
+  },
   "devDependencies": {
     "@babel/core": "^7.20.2",
     "@babel/preset-env": "^7.20.2",
@@ -9,22 +27,13 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "^27.1.6",
     "jest": "^29.3.1",
+    "@types/jest": "^29.2.3",
     "jest-puppeteer": "^6.1.1",
     "jsdoc": "^4.0.0",
     "puppeteer": "^19.2.2"
   },
-  "scripts": {
-    "test": "jest ./source/test/",
-    "doc-server": "./node_modules/.bin/http-server ./doc",
-    "update-doc": "./node_modules/.bin/jsdoc -r ./source -d ./doc",
-    "start": "./node_modules/.bin/http-server ./source",
-    "eslint": "./node_modules/.bin/eslint"
-  },
   "jest": {
     "preset": "jest-puppeteer",
     "verbose": true
-  },
-  "dependencies": {
-    "@types/jest": "^29.2.3"
   }
 }
