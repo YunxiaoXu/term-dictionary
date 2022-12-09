@@ -1,0 +1,27 @@
+{
+    "short_name": "MyDictionary",
+    "name": "My Dictionary: here is your terms",
+    "icons": [
+      {
+        "src": "./src/assets/d_logo-circle.png",
+        "type": "image/png",
+        "sizes": "373x373"
+      }
+    ],
+    "id": "./home.html?source=pwa",
+    "start_url": "./home.html?source=pwa",
+    "background_color": "#282A35",
+    "display": "fullscreen",
+    "scope": "./",
+    "theme_color": "#282A35",
+    "shortcuts": [
+      {
+        "name": "My Tags",
+        "short_name": "My Tags",
+        "description": "View all of the published tags",
+        "url": "./tags.html?source=pwa",
+        "icons": [{ "src": "./src/assets/d_logo-circle.png", "sizes": "373x373" }]
+      }
+    ],
+    "description": "Your own dictionary of self-defined terms"
+  }
