@@ -1,4 +1,4 @@
-import * as backend_function from '/src/backend/dict.js';
+import * as backend_function from '../../backend/dict.js';
 
 window.addEventListener('DOMContentLoaded', init);
 
