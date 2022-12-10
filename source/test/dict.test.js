@@ -415,4 +415,9 @@ describe('Test Updating and Deleting with Multiple Terms', () => {
   test('Check all unpublished terms (none)', () => {
     expect(functions.getAllUnpublishedTerms()).toStrictEqual([]);
   });
+
+  // Unit Test for final video
+  test('Unit Test for Final Video', () => {
+    expect(2+2).toBe(4);
+  });
 });
