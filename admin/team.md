@@ -1,14 +1,17 @@
 # The Pizza Party
 ## [*Team Intro*](https://youtu.be/iMRoQklh57Q)
 
-## [*Team Status Video 1*](https://youtu.be/tpCWZWzKOt8)
+## [*Team Status Video*](https://youtu.be/tpCWZWzKOt8)
 
+## [*Final Product Video(Public)*](https://youtu.be/E0aucEvoXBk)
+
+## [*Final Product Video(Private)*](https://youtu.be/Ma0O9H31Wvk)
 
 <!-- &nbsp; is the same as space " " -->
 # **&nbsp; &nbsp; Team Brand &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Team Logo**
 
-&nbsp; &nbsp;<a href="https://youtu.be/tpCWZWzKOt8" target="_blank">
-    <img src='./images/d_logo-circle.png' alt="drawing" width="200" title="Redirect to team status video, which talks about our site.">
+&nbsp; &nbsp;<a href="https://youtu.be/E0aucEvoXBk" target="_blank">
+    <img src='./images/d_logo-circle.png' alt="drawing" width="200" title="Redirect to final product video, which talks about our site.">
 </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 <a href="https://youtu.be/iMRoQklh57Q" target="_blank">
     <img src='./images/THEPIZZAPARTY-circle.png' alt="drawing" width="200" title="Redirect to team intro video, which introduces the team members.">

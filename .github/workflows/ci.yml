@@ -3,7 +3,7 @@ name: CI
 # Controls when the workflow will run
 on:
   push:
-    branches: [ "main", "dev", "backend", "more-unit-tests"]
+    branches: [ "main", "dev"]
   pull_request:
     branches: [ "main", "dev"]
 
