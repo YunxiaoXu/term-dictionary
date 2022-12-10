@@ -1,7 +1,7 @@
 RewriteEngine On
 RewriteBase /~yux029/term-dictionary/
 
-RewriteCond %{THE_REQUEST} ^source/(.+)
+RewriteCond %{THE_REQUEST} source/(.+)
 RewriteRule ^source/(.*)$ $1 [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
